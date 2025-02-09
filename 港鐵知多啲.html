@@ -409,7 +409,7 @@
                     totalScore += score;
                     feedback.innerHTML = "正確答案!";
                 } else {
-                    feedback.innerHTML = `<span class="red-text">錯誤答案! 正確答案是：${questionData.correctAnswer}. ${questionData.explanation}</span>`;
+                    feedback.innerHTML = `<span class="red-text"> 正確答案是：${questionData.correctAnswer}. ${questionData.explanation}</span>`;
                 }
                 feedback.classList.remove('hidden');
             });
